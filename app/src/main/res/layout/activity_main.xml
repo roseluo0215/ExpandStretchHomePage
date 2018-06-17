@@ -32,8 +32,8 @@
                 android:id="@+id/tb_tool_bar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                app:contentInsetStart="0dp"
                 android:visibility="gone"
+                app:contentInsetStart="0dp"
                 app:layout_collapseMode="pin">
 
                 <include
@@ -54,10 +54,16 @@
         android:fillViewport="true"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <!--<com.broadthinking.traffic.hohhot.common.view.SwipePullDownRefresh-->
-            <!--android:id="@+id/news_page_list"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="match_parent"/>-->
+        <FrameLayout
+            android:id="@+id/news_page_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="list view data"/>
+        </FrameLayout>
 
     </com.lc.expand.stretch.InterceptNestedScrollView>
 

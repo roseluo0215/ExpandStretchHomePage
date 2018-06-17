@@ -19,7 +19,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/hoping"
+            android:id="@+id/tv_card_recharge1"
             android:layout_width="@dimen/dp_0"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -33,7 +33,7 @@
             android:textSize="@dimen/textSize13"/>
 
         <TextView
-            android:id="@+id/busTime"
+            android:id="@+id/tv_card_recharge2"
             android:layout_width="@dimen/dp_0"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -47,7 +47,7 @@
             android:textSize="@dimen/textSize13"/>
 
         <TextView
-            android:id="@+id/busMap"
+            android:id="@+id/tv_card_recharge3"
             android:layout_width="@dimen/dp_0"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -61,7 +61,7 @@
             android:textSize="@dimen/textSize13"/>
 
         <TextView
-            android:id="@+id/contact"
+            android:id="@+id/tv_card_recharge4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -76,11 +76,5 @@
 
 
     </LinearLayout>
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/dp_4"
-        android:background="@color/color_f7f7f7"/>
-
 
 </LinearLayout>
