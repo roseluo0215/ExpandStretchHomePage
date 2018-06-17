@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lc.expand.stretch.MainToolbarHeadLayout
+    android:id="@+id/rl_toolbar_bg"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="#009E42">
+
+    <ImageView
+        android:id="@+id/iv_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:src="@mipmap/scan"/>
+
+    <ImageView
+        android:id="@+id/iv_card_recharge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_toRightOf="@+id/iv_scan"
+        android:src="@mipmap/card_recharge"/>
+
+
+    <ImageView
+        android:id="@+id/iv_real_time_bus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_toRightOf="@+id/iv_card_recharge"
+        android:src="@mipmap/real_time_bus"/>
+
+    <ImageView
+        android:id="@+id/iv_contact_customer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_toRightOf="@+id/iv_real_time_bus"
+        android:src="@mipmap/contact_customer"/>
+
+    <ImageView
+        android:id="@+id/iv_back_home_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/dp_20"
+        android:src="@mipmap/back_home_page"/>
+
+</com.lc.expand.stretch.MainToolbarHeadLayout>
