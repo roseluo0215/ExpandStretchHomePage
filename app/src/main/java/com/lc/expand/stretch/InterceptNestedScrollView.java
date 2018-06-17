@@ -36,7 +36,7 @@ public class InterceptNestedScrollView extends NestedScrollView {
 
   @Override
   public boolean onInterceptTouchEvent(MotionEvent ev) {
-    return mIsExpanded && super.onInterceptTouchEvent(ev);// 如果展开就拦截，不展开不拦截 注意super.onInterceptTouchEvent(ev)必须加上否则展开时子类点击事件被拦截
+    return mIsExpanded ;// 如果展开就拦截，不展开不拦截 注意super.onInterceptTouchEvent(ev)必须加上否则展开时子类点击事件被拦截
 
   }
 
